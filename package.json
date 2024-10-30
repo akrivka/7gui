@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "watch": "npx shadow-cljs watch app",
-        "release": "npx shadow-cljs release app"
+        "watch": "pnpm exec shadow-cljs watch app",
+        "release": "pnpm exec shadow-cljs release app"
     },
     "dependencies": {
         "react": "^17.0.2",
